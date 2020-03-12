@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.0//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.0/sdocbook.dtd">
+<article lang="de">
+  <title>RICS Commander</title>
+
+  <articleinfo>
+    <abstract>
+      <para>Diese Dokumentation beschreibt die Benutzung des RICS Commander
+      und die API zum Checkservice.</para>
+    </abstract>
+
+    <legalnotice>
+      <para>Die Dokumentation darf nur mit Erlaubnis der infoGrips GmbH
+      vervielfältigt werden.</para>
+    </legalnotice>
+
+    <copyright>
+      <year>infoGrips GmbH, 2020</year>
+    </copyright>
+
+    <pubdate>12.03.2020</pubdate>
+  </articleinfo>
+
+  <xi:include href="ricsc_java_intro.xml"
+              xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+  <section>
+    <title>Nutzung für Endanwender</title>
+
+    <section>
+      <title>Einleitung</title>
+
+      <para role="Absatz1">In diesem Kapitel ist die Benutzung für den
+      Endanwender beschrieben.</para>
+    </section>
+
+    <xi:include href="ricsc_java_usage.xml"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xpointer="element(/1)" />
+  </section>
+
+  <section>
+    <title>API</title>
+
+    <section>
+      <title>Einleitung</title>
+
+      <para role="Absatz1">In diesem Kapitel ist die API für den Zugriff zum
+      Checkservice beschrieben.</para>
+    </section>
+
+    <xi:include href="ricsc_java_api.xml"
+                xmlns:xi="http://www.w3.org/2001/XInclude" />
+  </section>
+</article>
